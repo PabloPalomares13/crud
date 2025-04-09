@@ -1,0 +1,33 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 74vh;
+}
+
+div.card1{
+    margin-top: 30px;
+    display: grid;
+    gap: 5;
+    justify-content: center;
+
+}
+div.card2{
+    display: grid;
+    gap: 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+div.subcard1{
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 150px;
+}
+
+div.card3{
+    justify-content: space-between;
+
+}

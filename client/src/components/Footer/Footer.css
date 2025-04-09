@@ -1,0 +1,46 @@
+.footer {
+    background: #065A31;
+    margin-top: auto;
+
+}
+div.container{
+    display: flex;
+    align-Items: center;
+    justify-Content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+img.logoF{
+    margin-Right: 15px;
+    width: 300px;
+    height: 100px;
+    border-Radius:20px; 
+    transform: 0.5s;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+img.logoF:hover{
+    transform: scale(1.17);
+}
+div.imagenCon{
+    padding-right: 10px;
+}
+
+div.Info{
+    color: #A2C583;
+}
+ul {
+    list-style: none;
+    padding: auto;
+    margin: auto;
+
+}
+h5{
+    text-align: center;
+    margin-left: 35px;
+}
+li.texto1{
+    text-align: center;
+}

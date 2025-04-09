@@ -1,0 +1,47 @@
+
+.header {
+    background: #065A31;
+    display: flex;
+    align-Items: center;
+    justify-Content: space-between;
+}
+div.h11 {
+    display: flex;
+    align-Items: center;
+}
+
+img.logoH{
+    margin-Right: 15px;
+    width: 200px;
+    height: 60px;
+    border-Radius:20px; 
+    transform: 0.5s;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+img.logoH:hover{
+    transform: scale(0.98);
+}
+.nav a{
+    color: #A2C583;
+}
+    a {
+        text-decoration: none;
+        transition: color 1s ease-in-out;
+        border-bottom: 1px solid transparent;
+        font-Weight: bold; /* agregar un borde inferior transparente */
+      }
+      
+      a:hover {
+        color: #CBE1D9;
+        border-bottom: 1px solid #CBE1D9; /* cambiar el borde inferior a un color sólido */
+      }
+h1{
+    margin:0;
+    color: #A2C583;
+    font-family: "Yellowtail", cursive;
+    font-weight: 50;
+    font-size: 40px;
+    font-style: normal;
+    margin:auto;
+}
