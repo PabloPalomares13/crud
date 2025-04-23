@@ -1,19 +1,30 @@
-const express = require("express");
+import express from 'express';
+import path from 'path';
+import cors from 'cors';
+import authRoutes from './routes/authRoutes.js';
+import mysql from 'mysql2';
+import multer from 'multer';
+
 const app = express();
-const mysql = require("mysql");
-const cors = require("cors");
-const multer = require('multer');
-const path = require('path');
 
 app.use(cors());
 app.use(express.json());
 
-const db =mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "hotel_crud"
-});
+try {
+    const db =mysql.createConnection({
+        host: "localhost",
+        user: "root",
+        password: "",
+        database: "gestionHotel"
+    });
+    console.log("Conectado a la base de datos");
+    db.connect();
+} catch (error) {
+    console.log(error);
+}
+
+
+app.use('/auth', authRoutes);
 
 app.post("/create",(req,res)=>{
 

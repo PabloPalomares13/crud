@@ -14,7 +14,7 @@ const Empleados = () => {
     const [cargo, setCargo] = useState('');
 
     const [empleadosList,setEmpleados]= useState([]);
-    const [datoList,setdato]= useState([]);
+   // const [datoList,setdato]= useState([]);
     const [editarE,setEditarE] = useState(false);
 
     const addE = ()=>{

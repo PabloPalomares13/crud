@@ -22,8 +22,7 @@ const Footer = () => {
               <h5>Estudiantes</h5>
               <ul className="listass">
                 <li className='texto1'> Pablo Palomares Medina</li>
-                <li className='texto1'> Juan Fula Rey</li>
-                <li className='texto1'> Juanes Basto Cruz</li>
+
               </ul>
             </div>
         </div>

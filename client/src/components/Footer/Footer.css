@@ -1,6 +1,7 @@
 .footer {
-    background: #065A31;
+    background: #e63946;
     margin-top: auto;
+
 
 }
 div.container{
@@ -29,7 +30,7 @@ div.imagenCon{
 }
 
 div.Info{
-    color: #A2C583;
+    color: #ffcccb;
 }
 ul {
     list-style: none;

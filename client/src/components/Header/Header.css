@@ -1,6 +1,6 @@
 
 .header {
-    background: #065A31;
+    background: #e63946;
     display: flex;
     align-Items: center;
     justify-Content: space-between;
@@ -23,7 +23,7 @@ img.logoH:hover{
     transform: scale(0.98);
 }
 .nav a{
-    color: #A2C583;
+    color: #ffcccb;
 }
     a {
         text-decoration: none;
@@ -33,12 +33,12 @@ img.logoH:hover{
       }
       
       a:hover {
-        color: #CBE1D9;
-        border-bottom: 1px solid #CBE1D9; /* cambiar el borde inferior a un color sólido */
+        color: #ffcccb;
+        border-bottom: 1px solid #ffcccb; /* cambiar el borde inferior a un color sólido */
       }
 h1{
     margin:0;
-    color: #A2C583;
+    color: #e63946;
     font-family: "Yellowtail", cursive;
     font-weight: 50;
     font-size: 40px;
